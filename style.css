@@ -43,6 +43,29 @@ nav {
   font-size: 1.5rem;
 }
 
+.menu > li {
+  content: "";
+  position: relative;
+  max-width: max-content;
+ 
+}
+
+.menu > li::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  height: 2px; 
+  transition: all 0.2s;
+}
+
+.menu > li:hover::before {
+  content: "";
+  background-color: white;
+}
+
+
 span {
   justify-content: left;
 }
@@ -261,7 +284,7 @@ footer {
 }
 
 .footerlogo {
-  width: 15vw;
+  width: 250px;
   align-items: center;
   margin-top: 40px;
 }
@@ -277,14 +300,14 @@ margin-left: 5vw;
   font-family: 'Roboto';
   font-size: 1.25rem;
   font-weight: 400;
-  margin-top: 3px;
+  margin-top: 5px;
 }
 .footer-mid > h5 {
   font-family: 'Roboto';
   font-size: 1.50rem;
   font-weight: 700;
   text-transform:uppercase ;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 

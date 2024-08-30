@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: aqua;
+  padding: 0 35px;
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 1400px;
+  width: 100%;
+}
+
+.wrapper .carousel {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 6) + 20%);
+  gap: 2.5rem;
+}
+
+.card .img img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  z-index: 2;
+}
+
+.carousel .card {
+  position: relative;
+  list-style: none;
+  background: white;
+  width: 400px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
