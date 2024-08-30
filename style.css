@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   color: white;
-  font-family: 'Montserrat'; 
+  font-family: 'Montserrat';
   list-style: none;
   font-style: none;
   text-decoration: none;
@@ -18,7 +18,7 @@
 
 body {
   background-color: var(--cinza);
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 /* NAV BAR */
@@ -29,7 +29,7 @@ nav {
   align-items: center;
 }
 
-.menu {  
+.menu {
   width: 80%;
   display: 	flex;
   margin: auto;
@@ -204,12 +204,12 @@ h4 {
 .item-left > p {
   font-size: 1.225rem;
   width: 70%;
-  
+
 }
 .item-right > p {
   font-size: 1.225rem;
   width: 70%;
-  
+
 }
 
 .HorizontalLine {
@@ -228,8 +228,8 @@ h4 {
   margin-top: -25px;
 }
 .RightSide {
-  
- 
+
+
   margin-left: 0px;
   margin-bottom: -25px;
 }
@@ -244,4 +244,65 @@ h4 {
   position: absolute;
   left: 50%;
   top: 100;
+}
+
+
+
+/* FOOTER */
+
+footer {
+  height: 335px;
+  margin-top: 140px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+}
+
+.footerlogo {
+  width: 15vw;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.footer-left {
+margin-left: 5vw;
+}
+.footer-mid {
+  margin-left: 10vw;
+  margin-right: 5vw; 
+}
+.footer-mid > p {
+  font-family: 'Roboto';
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 3px;
+}
+.footer-mid > h5 {
+  font-family: 'Roboto';
+  font-size: 1.50rem;
+  font-weight: 700;
+  text-transform:uppercase ;
+  margin-bottom: 5px;
+}
+
+
+.footer-right {
+margin-right: 10vw;
+}
+.footer-right > .footer-group > h5 {
+  font-family: 'Roboto';
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.footer-group > p {
+  font-family: 'Roboto';
+  font-size: 0.775rem;
+  font-weight: 400;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
 }
