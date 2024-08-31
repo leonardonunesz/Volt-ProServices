@@ -22,8 +22,16 @@ body {
 .wrapper .carousel {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 6) + 20%);
+  grid-auto-columns: calc((100% / 3) + 12px);
   gap: 2.5rem;
+
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+
+.wrapper .carousel {
+  cursor: grab;
+  user-select: none;
 }
 
 .card .img img {
@@ -50,3 +58,14 @@ body {
   padding: 20px;
 }
 
+@media screen and (max-width: 1200px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100%/ 2) - 20px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}
