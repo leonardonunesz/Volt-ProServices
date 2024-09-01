@@ -330,9 +330,9 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: calc((100% / 3) - 500px);
+  gap: calc((100% / 3) - 520px);
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 .textH1 {
@@ -347,6 +347,8 @@ footer {
 
 .project-container img {
   border-radius: 20px;
+  width: 450px;
+  height: 700px;
 }
 
 /* COMMENTS SECTION */
@@ -663,4 +665,22 @@ footer {
 .contact-container .box-contact .textContact p {
   font-size: 20px;
   margin-bottom: 20px;
+}
+
+/* FACILITIES */
+
+.facilities {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.facilities .facilitiesText {
+  padding: 10px;
+  font-size: 40px;
+  text-align: start;
+  align-items: center;
+  margin: auto;
+  max-width: 1200px;
+  margin-bottom: 30px;
+  list-style: circle;
 }
