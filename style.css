@@ -155,6 +155,7 @@ span {
 
   font-family: "Roboto";
   font-size: 1.75rem;
+  border-radius: 20px;
 }
 
 .container > p {
@@ -474,4 +475,94 @@ footer {
   padding-left: 22%;
   padding-right: 15%;
   background-color: var(--amarelo);
+}
+
+/* ABOUT US */
+
+.about-container {
+  display: flex;
+  align-items: center;
+  margin-top: 300px;
+  width: 100%;
+}
+
+.about-container img {
+  margin: auto;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container .textAbout {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  align-items: start;
+  justify-content: center;
+}
+
+.aboutH1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.about-container .textAbout p {
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+
+/* OUR TEAM */
+
+.teamH1 {
+  text-transform: uppercase;
+  font-size: 48px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: -100px;
+}
+
+.team-container {
+  margin-top: 150px;
+}
+
+.team-container .team {
+  display: flex;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+  max-width: 1200px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 300px;
+}
+
+.team-container .team img {
+  width: 412px;
+  height: 652px;
+}
+
+.team-container .team .firstimg {
+  display: flex;
+  flex-direction: column;
+}
+
+.profession-team {
+  margin: 20px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.name-team {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text-team {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
 }
