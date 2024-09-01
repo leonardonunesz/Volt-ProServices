@@ -684,3 +684,12 @@ footer {
   margin-bottom: 30px;
   list-style: circle;
 }
+
+.contactWhats {
+  margin-left: 5px;
+  transition: color 0.5s;
+}
+
+.contactWhats:hover {
+  color: var(--amarelo);
+}
