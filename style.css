@@ -101,8 +101,13 @@ span {
   padding: 10px;
   margin-top: 30px;
   margin-right: 40px;
-  box-shadow: inset rgba(0, 0, 0, 0.25) 5px 4px 4px;
+  box-shadow: inset rgba(255, 253, 253, 0.432) 5px 4px 4px;
   border: none;
+  transition: box-shadow 0.5s;
+}
+
+.textHero > .btn:hover {
+  box-shadow: inset rgba(0, 0, 0, 0.25) 4px 6px 6px;
 }
 
 .Hero {
@@ -541,7 +546,7 @@ footer {
 
 .team-container .team img {
   width: 412px;
-  height: 652px;
+  height: 690px;
 }
 
 .team-container .team .firstimg {
@@ -565,4 +570,97 @@ footer {
   display: flex;
   flex-direction: column;
   margin-top: 15px;
+}
+
+.contact-container .contactH1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Roboto";
+  padding-bottom: 40px;
+  width: 90%;
+  margin: auto;
+}
+
+.contact-container .box-contact {
+  width: 90%;
+  margin: auto;
+  background-color: var(--cinza2);
+  display: flex;
+  border-radius: 10px;
+}
+
+.contact-container .box-contact .box-contactLeft {
+  width: 60%;
+  height: 680px;
+}
+
+.contact-container .box-contact .box-contactLeft .box-contactH1 {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.contact-container .box-contact .box-contactLeft div {
+  margin-left: 20px;
+  background-color: var(--cinza);
+  width: 70%;
+  height: 8%;
+  border-radius: 9px;
+}
+
+.contact-container .box-contact .box-contactLeft div:nth-child(n + 7) {
+  height: 20%;
+}
+
+.contact-container .box-contact .box-contactLeft .btn-send {
+  width: 230px;
+  height: 56px;
+  text-align: center;
+  font-size: 30px;
+  background-color: var(--cinza);
+  border: none;
+  border-radius: 33px;
+  margin: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.contact-container .box-contact .textContact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.contact-container .box-contact .textContact .textContactH1 {
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-container .box-contact .textContact .textContactH1Colored {
+  color: var(--amarelo);
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-container .box-contact .textContact .textContactH2 {
+  font-size: 36px;
+  font-weight: 400;
+  width: 402px;
+  margin-top: 50px;
+  margin-bottom: 41px;
+}
+
+.contact-container .box-contact .textContact h3 {
+  font-size: 36px;
+}
+.contact-container .box-contact .textContact p {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
