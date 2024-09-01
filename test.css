@@ -25,7 +25,7 @@ body {
   grid-auto-columns: calc((100% / 3) + 12px);
   gap: 2.5rem;
 
-  overflow-x: auto;
+  overflow-x: hidden;
   overscroll-behavior-inline: contain;
 }
 
